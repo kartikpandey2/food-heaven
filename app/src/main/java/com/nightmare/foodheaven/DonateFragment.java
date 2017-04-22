@@ -110,7 +110,21 @@ public class DonateFragment extends Fragment {
                         try {
                             if (input.getText().toString().trim().equals("")) {
                                 Toast.makeText(getActivity(), "Submitted.", Toast.LENGTH_SHORT).show();
-                                return;
+                                new AlertDialog.Builder(getActivity())
+                                        .setTitle("Thank You")
+                                        .setMessage("Your donation request has been submitted.\nYou will be notified when the pickup specialist comes at your door step.\nYour request id is: #FH212341.")
+                                        .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                                            public void onClick(DialogInterface dialog, int which) {
+                                                // continue with delete
+                                            }
+                                        })
+                                        .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
+                                            public void onClick(DialogInterface dialog, int which) {
+                                                // do nothing
+                                            }
+                                        })
+                                        .setIcon(android.R.drawable.ic_dialog_alert)
+                                        .show();
                             }
 
                         } catch (Exception e) {
