@@ -10,10 +10,12 @@
     <string name="error_invalid_password">This password is too short</string>
     <string name="error_incorrect_password">This password is incorrect</string>
     <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
     <string name="tab_title_donate">Donate</string>
     <string name="tab_title_profile">Profile</string>
-    <string name="user_details_text">User\'s details and history\n\n•Past donations\n\n•Reward Points\n\n•Address\n\n</string>
+    <string name="user_details_text">User\'s details and history\n\n•Past donations\n\n•Reward Points\n\n•Address\n\n•Track past requests.\n\n</string>
+    <string name="Cloth">Clothes</string>
+    <string name="dialog_action_cancel">Cancel</string>
+    <string name="dialog_title_manage">Donate</string>
+    <string name="dialog_action_ok">OK</string>
 </resources>

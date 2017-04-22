@@ -5,4 +5,11 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorWhite">#ffffff</color>
     <color name="colorBlackTranslucent">#55000000</color>
+    <color name="accent">#FFC107</color>
+    <color name="colorFlip">#3ABCA7</color>
+    <color name="black_translucent">#77000000</color>
+    <color name="darkAccent">#7f6003</color>
+    <color name="darkFlip">#174B42</color>
+    <color name="grey">#333</color>
+
 </resources>
